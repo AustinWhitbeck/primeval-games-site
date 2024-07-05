@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import TopNavigation from "./_components/TopNavigation";
+import ContentWrapper from "./_components/ContentWrapper";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,9 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <TopNavigation />
-        {children}
+      <body className={`${inter.className} h-full`}>
+        <div className="h-screen flex flex-col">
+          <TopNavigation />
+          <ContentWrapper>
+            {children}
+          </ContentWrapper>
+        </div>
       </body>
     </html>
   );
