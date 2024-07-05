@@ -10,8 +10,8 @@ const LinkItem = ({ text, href }: { text: string; href: string;}) => {
 
 const TopNavigation = () => {
   return (
-    <div className="bg-green-100 flex flex-row justify-between items-center  pt-3 pr-4 pb-3 pl-4 drop-shadow-lg">
-        <ul className="flex flex-row items-center gap-4 w-full">
+    <div className="bg-green-100 flex flex-row justify-center items-center  pt-3 pr-4 pb-3 pl-4 drop-shadow-lg">
+        <ul className="flex flex-row items-center gap-4 w-full max-w-screen-lg">
             <li>
                 <a href="/">
                     <img 
