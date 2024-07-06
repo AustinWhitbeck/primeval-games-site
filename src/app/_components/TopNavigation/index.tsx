@@ -22,7 +22,7 @@ const TopNavigation = () => {
             </li>
             <LinkItem text="About" href="/about" />
             <LinkItem text="Schedule" href="/schedule" />
-            <LinkItem text="Contact Us" href="/contact" />
+            <LinkItem text="Contact" href="/contact" />
             <LinkItem text="Inventory" href="/inventory" />
         </ul>
     </div>

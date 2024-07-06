@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} h-full`}>
-        <div className="h-screen flex flex-col">
+        <div className="h-screen flex flex-col pb-10">
           <TopNavigation />
           <ContentWrapper>
             {children}
