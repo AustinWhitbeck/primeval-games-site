@@ -30,7 +30,7 @@ const cedhTournamentResults: CEDHTournamentResult[] = [
 
 ]
 
-export const CEDHTournamentResultSection = ({winnerName, date, decklistLink, image, commander}: CEDHTournamentResult) => {
+const CEDHTournamentResultSection = ({winnerName, date, decklistLink, image, commander}: CEDHTournamentResult) => {
   return(
     <div className="flex justify-between border-solid border-2 rounded-md border-green-900 bg-green-900">
       <div className="p-5">
